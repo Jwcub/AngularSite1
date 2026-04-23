@@ -17,3 +17,13 @@ h1 {
     margin-bottom: 15px;
 }
 
+img.medium {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
