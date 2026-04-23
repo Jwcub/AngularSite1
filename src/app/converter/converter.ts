@@ -20,9 +20,7 @@ export class Converter {
     if(this.method === "CtoF") {
       this.result = celsiusToFahrenheit(this.value);
     }
-    else {
-      this.result = "Ingen metod vald"
-    }
+    else return
   }
 }
 
