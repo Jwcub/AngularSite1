@@ -20,6 +20,10 @@ export class Converter {
     if(this.method === "CtoF") {
       this.result = celsiusToFahrenheit(this.value);
     }
+
+    if(this.method === "KgtoLbs") {
+      this.result = kilogramToPounds(this.value);
+    }
     else return
   }
 }
@@ -32,6 +36,12 @@ function meterToInches(meters: number):string {
 
 function celsiusToFahrenheit(celsius: number):string {
   const fahrenheit = celsius * 1.8 + 32;
-  const message = `${celsius} Celsius är ${fahrenheit} Fahrenheit`
+  const message = `${celsius} Celsius är ${fahrenheit} Fahrenheit`;
+  return message
+}
+
+function kilogramToPounds(kg: number): string {
+  const pounds = kg * 2.20462;
+  const message = `${kg} kilogram är ${pounds} lbs`;
   return message
 }
