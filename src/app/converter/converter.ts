@@ -28,18 +28,21 @@ export class Converter {
   }
 }
 
+// Funktion för omvandling till fot
 function meterToFeet(meters: number):string {
   const feet = meters * 3.28084
   const message = `${meters} meter är ${feet} fot`;
   return message
 }
 
+// Funktion för omvandling till fahrenheit
 function celsiusToFahrenheit(celsius: number):string {
   const fahrenheit = celsius * 1.8 + 32;
   const message = `${celsius} Celsius är ${fahrenheit} Fahrenheit`;
   return message
 }
 
+// Funktion för omvandling tull pounds
 function kilogramToPounds(kg: number): string {
   const pounds = kg * 2.20462;
   const message = `${kg} kilogram är ${pounds} lbs`;
