@@ -7,38 +7,10 @@
     gap: 20px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 main {
     background-color: #fff;
     padding: 30px;
     border-radius: 8px;
-}
-
-nav ul {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    background-color: #547A95;
-    padding: 8px 16px;
-    border-radius: 6px;
-}
-
-nav li:hover {
-    background-color: #2C3947;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
 }
 
 footer {

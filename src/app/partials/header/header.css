@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    background-color: #547A95;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+nav li:hover, nav li.current {
+    background-color: #2C3947;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
