@@ -13,8 +13,8 @@ export class Converter {
   result: string = "";
 
   convertValue():void {
-    if(this.method === "MtoI"){
-      this.result = meterToInches(this.value);
+    if(this.method === "MtoF"){
+      this.result = meterToFeet(this.value);
     }
 
     if(this.method === "CtoF") {
@@ -28,9 +28,9 @@ export class Converter {
   }
 }
 
-function meterToInches(meters: number):string {
-  const inches = meters * 39.3701;
-  const message = `${meters} meter är ${inches} inches`;
+function meterToFeet(meters: number):string {
+  const feet = meters * 3.28084
+  const message = `${meters} meter är ${feet} fot`;
   return message
 }
 
