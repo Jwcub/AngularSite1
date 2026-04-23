@@ -23,6 +23,12 @@ img.medium {
     height: auto;
 }
 
+img.small {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
 .center {
     display: block;
     margin: 0 auto;
