@@ -1,1 +1,22 @@
-<p>converter works!</p>
+<h2>Konverterare</h2>
+
+<div class="converter">
+
+<label>
+    Värde: <br>
+    <input type="number" id="value" [(ngModel)]="value">
+</label>
+
+<label>
+    Omvandling: <br>
+    <select [(ngModel)]="method">
+        <option value="MtoI">Meter till Inch</option>
+        <option value="CtoF">Celsius till Farenheit</option>
+    </select>
+</label>
+
+<button (click)="convertValue()">Omvandla</button>
+
+<p class="result">Resultat: <strong> {{ result }} </strong></p>
+
+</div>

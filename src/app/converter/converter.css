@@ -1,0 +1,27 @@
+.converter {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    input, select {
+        width: 100%;
+        padding: 8px 12px;
+    }
+
+    button {
+        justify-self: flex-start;
+        align-self: flex-start;
+        padding: 8px 20px;
+        background-color: #547A95;
+        border: 0;
+        border-radius: 8px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    p.result {
+        margin: 0;
+        grid-column: span 2;
+    }
+}
