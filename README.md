@@ -6,3 +6,4 @@ Webbplatsen innehåller fyra sidor skapade som komponenter. Komponenterna koms �
 Under "Omvandling" finns ett verktyg för omvandling av olika enheter. Denna omvandlare är skapad i Typescript med hjälp av klassen "Converter" samt olika funktioner för att beräkna omvandlingarna. 
 
 Webbplatsen finns tillgänglig vid:
+https://angularsitelabb3.netlify.app/
