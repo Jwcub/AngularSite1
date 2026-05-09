@@ -12,12 +12,13 @@
     <select [(ngModel)]="method">
         <option value="" disabled>Välj metod</option>
         <option value="MtoF">Meter till fot</option>
+        <option value="FtoM">Fot till meter</option>
         <option value="CtoF">Celsius till Fahrenheit</option>
-        <option value="KgtoLbs">Kilogram till Pounds</option>
+        <option value="FtoC">Fahrenheit till Celsius</option>
     </select>
 </label>
 
-<button (click)="convertValue()">Omvandla</button>
+<button (click)="convertMethod()">Omvandla</button>
 
 <p class="result"><strong>Resultat:</strong> {{ result }} </p>
 
